@@ -1,0 +1,35 @@
+/* Header 스타일링 */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4caf50; /* 녹색 배경 */
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+}
+.header-logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.header-nav a {
+    margin-left: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.header-nav a:hover {
+    color: #ffeb3b; /* 노란색으로 변경 */
+}
